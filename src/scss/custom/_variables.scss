@@ -1,0 +1,105 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$gray-100: #fafafa;
+$gray-500: #696969;
+$gray-900: #212529;
+$black: #151515;
+
+$min-contrast-ratio: 3;
+
+$primary: $black;
+
+$enable-shadows: true;
+$enable-gradients: true;
+
+$variable-prefix: snap-;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-text-align: center;
+$body-color: $gray-500;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom: 1rem !default;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+// scss-docs-end grid-breakpoints
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1360px,
+);
+// scss-docs-end container-max-widths
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 1.5rem;
+
+// Container padding
+
+$container-padding-x: $grid-gutter-width;
+
+$border-color: $gray-500 !default;
+$border-color-translucent: none;
+
+// scss-docs-end border-variables
+
+// scss-docs-start border-radius-variables
+$border-radius: 0.875rem;
+
+$box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
+
+$font-family-base: "Epilogue", sans-serif;
+
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * 0.875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+
+$font-weight-light: 300 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+
+$font-weight-base: $font-weight-medium !default;
+
+$line-height-base: 1.75;
+$h1-font-size: $font-size-base * 5;
+
+$headings-margin-bottom: 0;
+$headings-font-family: $font-family-base;
+$headings-font-weight: 700;
+$headings-line-height: $font-size-base * 5;
+$headings-color: $primary;
