@@ -23,6 +23,7 @@ $secondary: $gray-500;
 
 // $enable-shadows: true;
 // $enable-gradients: true;
+$enable-caret: false;
 
 // Prefix for :root CSS variables
 
@@ -187,15 +188,14 @@ $nav-link-font-weight: $font-weight-medium;
 $nav-link-color: $secondary;
 $nav-link-hover-color: $primary;
 $nav-link-transition: color 0.15s ease-in-out background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out !default;
+  border-color 0.15s ease-in-out;
 
 // // Navbar
 
 // // scss-docs-start navbar-variables
-$navbar-padding-y: $spacer * 0.5 !default;
-$navbar-padding-x: null !default;
-$navbar-nav-link-padding-x: 0.5rem !default;
-
+$navbar-padding-y: $spacer * 0.5;
+$navbar-padding-x: null;
+$navbar-nav-link-padding-x: 0.5rem;
 // $navbar-brand-font-size: $font-size-lg !default;
 // // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
 // $nav-link-height: $font-size-base * $line-height-base + $nav-link-padding-y * 2 !default;

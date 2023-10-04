@@ -37,9 +37,34 @@
 				</button>
 				<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
 					<ul class="nav col-12 col-md-auto mb-2 navbar-nav mb-md-0">
-						<li><a href="#" class="nav-link">Home</a></li>
-						<li><a href="#" class="nav-link">Features</a></li>
-						<li><a href="#" class="nav-link">Company</a></li>
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Features</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#"><img src="/images/icon-todo.svg" alt="">Todo List</a></li>
+								<li><a class="dropdown-item" href="#"><img src="/images/icon-calendar.svg" alt="">
+										Calendar</a></li>
+								<li><a class="dropdown-item" href="#"><img src="/images/icon-reminders.svg" alt="">
+										Reminders</a></li>
+								<li><a class="dropdown-item" href="#"><img src="/images/icon-planning.svg" alt=""> Planning</a></li>
+							</ul>
+
+						</li>
+						<li class="dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Company</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="dropdown-item">History</a></li>
+								<li><a href="#" class="dropdown-item"><svg class="bi" width="16" height="16">
+											<use xlink:href="#files"></use>
+										</svg>Our Team</a></li>
+								<li><a href="#" class="dropdown-item"><svg class="bi" width="16" height="16">
+											<use xlink:href="#files"></use>
+										</svg>Blog</a></li>
+							</ul>
+						</li>
 						<li><a href="#" class="nav-link">Careers</a></li>
 						<li><a href="#" class="nav-link">About</a></li>
 					</ul>
