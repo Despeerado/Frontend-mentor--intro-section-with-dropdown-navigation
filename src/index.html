@@ -26,53 +26,60 @@
 <body>
 	<!-- HEADER -->
 	<div class="container">
-		<nav class="navbar navbar-expand-md">
+		<nav class="navbar navbar-expand-md" aria-label="Offcanvas navbar large">
 			<div class="container-fluid">
 				<a href="/" class="navbar-brand">
 					<img src="/images/logo.svg" alt="logo">
 				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button cclass="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+					aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-					<ul class="nav col-12 col-md-auto mb-2 navbar-nav mb-md-0">
-						<li class="dropdown">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-								aria-expanded="false">
-								Features</a>
-							<ul class="dropdown-menu shadow">
-								<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img src="/images/icon-todo.svg"
-											alt="">Todo List</a></li>
-								<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
-											src="/images/icon-calendar.svg" alt="">
-										Calendar</a></li>
-								<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
-											src="/images/icon-reminders.svg" alt="">
-										Reminders</a></li>
-								<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
-											src="/images/icon-planning.svg" alt=""> Planning</a>
-								</li>
-							</ul>
+				<div id="offcanvasNavbar2" class="collapse navbar-collapse justify-content-between offcanvas offcanvas-end"
+					id="navbarSupportedContent">
+					<div class="offcanvas-header">
+						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+							aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="nav col-12 col-md-auto mb-2 navbar-nav mb-md-0">
+							<li class="dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Features</a>
+								<ul class="dropdown-menu shadow">
+									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img src="/images/icon-todo.svg"
+												alt="">Todo List</a></li>
+									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
+												src="/images/icon-calendar.svg" alt="">
+											Calendar</a></li>
+									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
+												src="/images/icon-reminders.svg" alt="">
+											Reminders</a></li>
+									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
+												src="/images/icon-planning.svg" alt=""> Planning</a>
+									</li>
+								</ul>
 
-						</li>
-						<li class="dropdown">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-								aria-expanded="false">
-								Company</a>
-							<ul class="dropdown-menu shadow">
-								<li><a href="#" class="dropdown-item">History</a></li>
-								<li><a href="#" class="dropdown-item">Our Team</a></li>
-								<li><a href="#" class="dropdown-item">Blog</a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="nav-link">Careers</a></li>
-						<li><a href="#" class="nav-link">About</a></li>
-					</ul>
+							</li>
+							<li class="dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Company</a>
+								<ul class="dropdown-menu shadow">
+									<li><a href="#" class="dropdown-item">History</a></li>
+									<li><a href="#" class="dropdown-item">Our Team</a></li>
+									<li><a href="#" class="dropdown-item">Blog</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="nav-link">Careers</a></li>
+							<li><a href="#" class="nav-link">About</a></li>
+						</ul>
 
-					<div class="col-md-3 text-end">
-						<button type="button" class="btn btn-link me-2">Login</button>
-						<button type="button" class="btn btn-outline-dark">Register</button>
+						<div class="col-md-3 text-end">
+							<button type="button" class="btn btn-link me-2">Login</button>
+							<button type="button" class="btn btn-outline-dark">Register</button>
+						</div>
 					</div>
 				</div>
 			</div>
