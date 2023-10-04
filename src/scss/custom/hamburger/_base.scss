@@ -5,6 +5,9 @@
 .hamburger {
   padding: $hamburger-padding-y $hamburger-padding-x;
   display: inline-block;
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
   cursor: pointer;
 
   transition-property: opacity, filter;

@@ -31,25 +31,29 @@
 				<a href="/" class="navbar-brand">
 					<img src="/images/logo.svg" alt="logo">
 				</a>
-				<button cclass="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
-					aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<button class="hamburger hamburger--3dx" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+					<span class="hamburger-box"></span>
+					<span class="hamburger-inner"></span>
 				</button>
 				<div id="offcanvasNavbar2" class="collapse navbar-collapse justify-content-between offcanvas offcanvas-end"
 					id="navbarSupportedContent">
-					<div class="offcanvas-header">
-						<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-							aria-label="Close"></button>
+					<div class="offcanvas-header w-100 justify-content-end">
+						<button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
+							<img src="/images/icon-close-menu.svg" alt="">
+						</button>
 					</div>
-					<div class="offcanvas-body">
-						<ul class="nav col-12 col-md-auto mb-2 navbar-nav mb-md-0">
-							<li class="dropdown">
+					<div class="offcanvas-body justify-content-md-between w-100">
+						<ul
+							class="nav col-12 col-md-auto mb-2 navbar-nav mb-md-0 d-md-flex align-items-start align-items-md-center gap-4 w-100">
+							<li class="dropdown w-100 text-start">
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
 									aria-expanded="false">
 									Features</a>
-								<ul class="dropdown-menu shadow">
-									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img src="/images/icon-todo.svg"
-												alt="">Todo List</a></li>
+								<ul class="dropdown-menu animate slideIn">
+									<li><a class=" dropdown-item d-flex align-items-center gap-2" href="#"><img
+												src="/images/icon-todo.svg" alt="">Todo List</a>
+									</li>
 									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
 												src="/images/icon-calendar.svg" alt="">
 											Calendar</a></li>
@@ -59,14 +63,14 @@
 									<li><a class="dropdown-item d-flex align-items-center gap-2" href="#"><img
 												src="/images/icon-planning.svg" alt=""> Planning</a>
 									</li>
-								</ul>
+								</ul><s></s>
 
 							</li>
-							<li class="dropdown">
+							<li class="dropdown w-100 text-start">
 								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
 									aria-expanded="false">
 									Company</a>
-								<ul class="dropdown-menu shadow">
+								<ul class="dropdown-menu animate slideIn">
 									<li><a href="#" class="dropdown-item">History</a></li>
 									<li><a href="#" class="dropdown-item">Our Team</a></li>
 									<li><a href="#" class="dropdown-item">Blog</a></li>
@@ -76,9 +80,14 @@
 							<li><a href="#" class="nav-link">About</a></li>
 						</ul>
 
-						<div class="col-md-3 text-end">
-							<button type="button" class="btn btn-link me-2">Login</button>
-							<button type="button" class="btn btn-outline-dark">Register</button>
+						<div class="d-flex flex-column align-items-center gap-4 ">
+							<div class="w-100">
+								<button type=" button" class="btn btn-link me-2">Login</button>
+							</div>
+							<div class="w-100">
+								<button type="button" class="btn btn-outline-secondary fw-medium">Register</button>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -86,6 +95,9 @@
 		</nav>
 	</div>
 	<!-- END HEADER-->
+	<!-- HERO-->
+
+	<!-- END HERO-->
 	Make remote work
 
 	Get your team in sync, no matter your location. Streamline processes,
