@@ -5,19 +5,13 @@
     height: auto;
     margin: -0.3em 0 0 0.4em;
     content: url("/images/chevron-down.svg");
-    color: blue;
     transform-origin: center;
     transition: transform 0.1s ease-in-out;
-    svg {
-      path {
-        stroke: blue;
-      }
-    }
     &:hover {
-      color: $black;
+      filter: invert(0%) sepia(6%) saturate(7476%) hue-rotate(328deg)
+        brightness(103%) contrast(106%);
     }
   }
-
   &.show:after {
     transform: rotate(180deg);
   }

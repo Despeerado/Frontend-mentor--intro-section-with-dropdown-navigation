@@ -40,6 +40,11 @@ $spacer: 1rem;
 $body-text-align: center;
 $body-color: $gray-500;
 
+// Links
+//
+// Style anchor elements.
+
+$link-decoration: none;
 // Paragraphs
 //
 // Style p element.
@@ -169,8 +174,8 @@ $btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075)
 $btn-disabled-opacity: 0.65;
 $btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125);
 
-$btn-link-color: $primary;
-$btn-link-hover-color: $primary;
+$btn-link-color: $gray-500;
+$btn-link-hover-color: $black;
 $btn-link-disabled-color: $gray-500;
 
 // Allows for customizing button radius independently from global border radius
