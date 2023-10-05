@@ -25,13 +25,25 @@
 }
 
 .img-hero {
-  background-image: url("/images/image-hero-mobile.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  min-height: 640px;
+  // background-image: url("/images/image-hero-mobile.png");
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: 100% 100%;
+  // // min-height: 640px;
+  // width: 100%;
+  // height: auto;
+  // @include media-breakpoint-up(md) {
+  //   background-image: url("/images/image-hero-desktop.png");
+  // }
   width: 100%;
+  height: auto;
+}
+
+h1 {
+  // @include media-breakpoint-up(sm) {
+  //   line-height: 2.625rem;
+  // }
   @include media-breakpoint-up(md) {
-    background-image: url("/images/image-hero-desktop.png");
+    line-height: 5rem;
   }
 }

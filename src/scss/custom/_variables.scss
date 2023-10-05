@@ -1,3 +1,12 @@
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1360px,
+) !default;
+// scss-docs-end container-max-widths
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -125,7 +134,7 @@ $h1-font-size: $font-size-base * 3.8;
 $headings-margin-bottom: $spacer * 1;
 $headings-font-family: $font-family-base;
 $headings-font-weight: 700;
-$headings-line-height: $font-size-base * 5;
+$headings-line-height: $font-size-base * 2.625;
 $headings-color: $primary;
 
 // scss-docs-start input-btn-variables
@@ -200,7 +209,7 @@ $nav-link-transition: color 0.15s ease-in-out background-color 0.15s ease-in-out
 // // Navbar
 
 // // scss-docs-start navbar-variables
-$navbar-padding-y: $spacer * 0.5;
+$navbar-padding-y: $spacer * 1.5;
 $navbar-padding-x: null;
 $navbar-nav-link-padding-x: 0.5rem;
 

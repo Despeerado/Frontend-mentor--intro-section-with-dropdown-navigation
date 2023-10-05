@@ -5,7 +5,7 @@
 .hamburger {
   padding: $hamburger-padding-y $hamburger-padding-x;
   display: inline-block;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
   cursor: pointer;
