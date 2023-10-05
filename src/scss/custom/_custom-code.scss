@@ -16,3 +16,22 @@
     transform: rotate(180deg);
   }
 }
+
+.btn-menu {
+  padding-inline: 3.5rem;
+  @include media-breakpoint-up(md) {
+    padding-inline: 0.75rem;
+  }
+}
+
+.img-hero {
+  background-image: url("/images/image-hero-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 640px;
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    background-image: url("/images/image-hero-desktop.png");
+  }
+}

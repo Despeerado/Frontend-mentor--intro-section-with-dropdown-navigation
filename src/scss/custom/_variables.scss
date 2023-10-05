@@ -106,7 +106,7 @@ $component-active-color: $primary;
 $component-active-bg: $white;
 
 $font-family-base: "Epilogue", sans-serif;
-
+// $font-size-root: 16px;
 $font-size-base: 1rem;
 $font-size-sm: $font-size-base * 0.875 !default;
 $font-size-lg: $font-size-base * 1.25 !default;
@@ -120,9 +120,9 @@ $font-weight-base: $font-weight-medium !default;
 $line-height-base: 1.75;
 $line-height-lg: 5;
 
-$h1-font-size: $font-size-base * 5;
+$h1-font-size: $font-size-base * 3.8;
 
-$headings-margin-bottom: $spacer * 3;
+$headings-margin-bottom: $spacer * 1;
 $headings-font-family: $font-family-base;
 $headings-font-weight: 700;
 $headings-line-height: $font-size-base * 5;
@@ -182,6 +182,8 @@ $btn-link-disabled-color: $gray-500;
 
 $btn-border-radius: $border-radius;
 $btn-border-radius-sm: $border-radius-sm;
+
+$offcanvas-horizontal-width: 65vw;
 
 // Navs
 
