@@ -33,6 +33,7 @@ $secondary: $gray-500;
 // $enable-shadows: true;
 // $enable-gradients: true;
 $enable-caret: false;
+$enable-rfs: false;
 
 // Prefix for :root CSS variables
 
@@ -41,6 +42,18 @@ $variable-prefix: snap-;
 // scss-docs-start spacer-variables-maps
 $spacer: 1rem;
 // scss-docs-end spacer-variables-maps
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 7.5,
+  9: $spacer * 9,
+);
 
 // Body
 //
@@ -127,9 +140,9 @@ $font-weight-bold: 700 !default;
 $font-weight-base: $font-weight-medium !default;
 
 $line-height-base: 1.75;
-$line-height-lg: 5;
+// $line-height-lg: 5;
 
-$h1-font-size: $font-size-base * 3.8;
+$h1-font-size: $font-size-base * 2.25;
 
 $headings-margin-bottom: $spacer * 1;
 $headings-font-family: $font-family-base;
@@ -209,7 +222,7 @@ $nav-link-transition: color 0.15s ease-in-out background-color 0.15s ease-in-out
 // // Navbar
 
 // // scss-docs-start navbar-variables
-$navbar-padding-y: $spacer * 1.5;
+$navbar-padding-y: $spacer * 2;
 $navbar-padding-x: null;
 $navbar-nav-link-padding-x: 0.5rem;
 

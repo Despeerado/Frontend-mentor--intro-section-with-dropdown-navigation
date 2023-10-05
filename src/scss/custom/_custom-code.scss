@@ -35,15 +35,40 @@
   // @include media-breakpoint-up(md) {
   //   background-image: url("/images/image-hero-desktop.png");
   // }
+  max-width: 480px;
   width: 100%;
   height: auto;
 }
 
-h1 {
-  // @include media-breakpoint-up(sm) {
-  //   line-height: 2.625rem;
-  // }
+p {
   @include media-breakpoint-up(md) {
-    line-height: 5rem;
+    font-size: $font-size-base * 1.125;
   }
+}
+
+.dropdown-menu {
+  @include media-breakpoint-up(lg) {
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    .dropdown-item {
+      padding-inline: 1rem 1rem;
+    }
+  }
+}
+
+.btn-primary {
+  --snap-btn-color: #fff;
+  --snap-btn-bg: #151515;
+  --snap-btn-border-color: #151515;
+  --snap-btn-hover-color: #151515;
+  --snap-btn-hover-bg: #fff;
+  --snap-btn-hover-border-color: #151515;
+  --snap-btn-focus-shadow-rgb: 56, 56, 56;
+  --snap-btn-active-color: #fff;
+  --snap-btn-active-bg: #111111;
+  --snap-btn-active-border-color: #101010;
+  --snap-btn-active-shadow: inset 0 3px 5px rgba(21, 21, 21, 0.125);
+  --snap-btn-disabled-color: #fff;
+  --snap-btn-disabled-bg: #151515;
+  --snap-btn-disabled-border-color: #151515;
 }
