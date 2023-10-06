@@ -12,11 +12,11 @@ module.exports = {
 		filename: '[name][contenthash].js',
 		clean: true,
 		assetModuleFilename: '[name][ext]',
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname, 'docs')
 	},
 	// devtool: 'source-map',
 	devServer: {
-		static: path.resolve(__dirname, 'dist'),
+		static: path.resolve(__dirname, 'docs'),
 		port: 8080,
 		open: true,
 		hot: true,
